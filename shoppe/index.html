@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopee</title>
+    <link rel = "icon" href = "shope.png" type = "image/x-icon">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <!-- navbar  -->
+        <div class="navbar d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <span>Kênh người bán</span>
+            <div class="hr1 mx-2"></div>
+            <span>Tải ứng dụng</span>
+            <div class="hr1 mx-2"></div>
+            <span>Kết nối</span>
+            <img
+              class="icon-media mr-2 ml-2"
+              src="https://cf.shopee.vn/file/2277b37437aa470fd1c71127c6ff8eb5"
+              alt=""
+            />
+            <img class="icon-media mr-2" src="https://cf.shopee.vn/file/5973ebbc642ceee80a504a81203bfb91" alt="" />
+          </div>
+          <div class="d-flex align-items-center">
+            <img class="icon-media mr-2" src="notif.png" alt="" />
+            <span class="mr-4">Thông báo</span>
+            <img class="icon-media mr-2" src="hotro.png" alt="" />
+            <span class="mr-4">Hỗ trợ</span>
+            <span class="font-weight-bold">Đăng nhập</span>
+            <div class="hr1 mx-2"></div>
+            <span class="font-weight-bold">Đăng ký</span>
+          </div>
+        </div>
+        <!-- input search brand -->
+        <div class="d-flex align-items-center mt-4">
+          <div class="d-flex align-items-center">
+            <img class="brand-img mr-2" src="shope.png" alt="" />
+            <span class="text-brand">Shopee</span>
+          </div>
+          <div class="wrap-navbar-input">
+            <div class="wrap-search">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Pham Van Khanh sale 100%"
+              />
+              <div class="wrap-icon-s">
+                <img class="icon-media" src="search.png" alt="" />
+              </div>
+            </div>
+            <div class="under-input d-flex mt-2">
+              <span>quần</span>
+              <span class="mr-3">Áo</span>
+              <span class="mr-3">Tai nghe</span>
+              <span class="mr-3">Màn hình</span>
+              <span class="mr-3">Điện thoại</span>
+              <span class="mr-3">Máy tính</span>
+              <span class="mr-3">Sách</span>
+              <span class="mr-3">Loa</span>
+            </div>
+          </div>
+          <a href="product_detail.html"><img class="icon-shop" src="giohang.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <div class="container">
+        <!-- carousel -->
+        <div class="row wrap-carousel">
+          <div class="col-8 h-100 pr-1">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide h-100"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="3"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="4"
+                ></li>
+              </ol>
+              <div class="carousel-inner h-100">
+                <div class="carousel-item active h-100">
+                  <img
+                    src="slider/3.png"
+                    class="d-block w-100 h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="slider/4.png"
+                    class="d-block w-100 h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="slider/5.png"
+                    class="d-block w-100 h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="slider/5.png"
+                    class="d-block w-100 h-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item h-100">
+                  <img
+                    src="slider/5.png"
+                    class="d-block w-100 h-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-4 h-100 pl-0">
+            <div class="h-50">
+              <img class="w-100 h-100" src="slider/5.png" alt="" />
+            </div>
+            <div class="h-50 pt-1">
+              <img class="w-100 h-100" src="slider/4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- jenis sale -->
+        <div class="row mx-0 jenis-sale">
+          <div class="d-flex justify-content-between w-100">
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/46a2a2c810622f314d78455da5e5d926_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Khung Giờ Săn Sale</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/b3535d7e56c58c4ebe9a87672d38cc5e_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Gì Cũng Rẻ-Mua Là Freeship</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/a8d76bca057ba0b117dcf8e1ef068d16_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Miễn Phí Vận Chuyển</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/b15de7d7368673a82583a88333ed23e7_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Bắt Trend - Giá Sốc</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/9da9a3acb5520d601f86a90434f455a5_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Hoàn Xu 10% - Lên Đến 300K</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/c246f504123a8d589a97b00243e2d945_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Hàng Hiệu Giá Tốt</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/a08ab28962514a626195ef0415411585_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Hàng Quốc Tế
+              </p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/9df57ba80ca225e67c08a8a0d8cc7b85_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Nạp Thẻ & Dịch Vụ</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <div class="wrap-img">
+                <img src="https://cf.shopee.vn/file/96385a65fa50800e096bb790fa5c1dba_xhdpi" alt="" />
+              </div>
+              <p class="mb-0 mt-2">Deal Sốc Từ 1K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="footer">
+      <div class="container pt-5">
+        <p class="title font-weight-bold">
+          SHOPEE - GÌ CŨNG CÓ, MUA HẾT Ở SHOPEE
+        </p>
+        <p class="desc">
+          Shopee - ứng dụng mua sắm trực tuyến thú vị, tin cậy, an toàn và miễn phí! Shopee là nền tảng giao dịch trực tuyến hàng đầu ở Đông Nam Á, có trụ sở chính ở Singapore, đã có mặt ở khắp các khu vực Singapore, Malaysia, Indonesia, Thái Lan, Philippines, Đài Loan, Brazil, México, Colombia, Chile, Poland, Spain, Argentina.  Với sự đảm bảo của Shopee, bạn sẽ mua hàng trực tuyến an tâm và nhanh chóng hơn bao giờ hết!
+        </p>
+
+        <p class="title font-weight-bold mt-5">MUA SẮM VÀ BÁN HÀNG ONLINE ĐƠN GIẢN, NHANH CHÓNG VÀ AN TOÀN</p>
+        <p class="desc">
+          Nếu bạn đang tìm kiếm một trang web để mua và bán hàng trực tuyến thì Shopee.vn là một sự lựa chọn tuyệt vời dành cho bạn. Bản chất của Shopee là một social E-commerce platform - nền tảng trang web thương mại điện tử tích hợp mạng xã hội. Điều này cho phép người mua và người bán hàng dễ dàng tương tác, trao đổi thông tin về sản phẩm và chương trình khuyến mãi của shop. Nhờ nền tảng đó, việc mua bán trên Shopee trở nên nhanh chóng và đơn giản hơn. Bạn có thể trò chuyện trực tiếp với nhà bán hàng để hỏi trực tiếp về mặt hàng cần mua. Còn nếu bạn muốn tìm mua những dòng sản phẩm chính hãng, uy tín, Shopee Mall chính là sự lựa chọn lí tưởng dành cho bạn. Để bạn có thể dễ dàng khi tìm hiểu và sử dụng sản phẩm, Shopee Blog- trang blog thông tin chính thức của Shopee - sẽ giúp bạn có thể tìm được cho mình các kiến thức về xu hướng thời trang, review công nghệ, mẹo làm đẹp, tin tức tiêu dùng và deal giá tốt bất ngờ.
+        </p>
+
+          <p class="title font-weight-bold mt-5">Danh mục</p>
+        <div class="d-flex">
+          <div class="d-flex flex-column">
+            <p class="desc mb-0 font-weight-bold">THỜI TRANG NAM</p>
+            <p class="desc">Áo Khoác
+ | 
+Áo Vest và Blazer
+ |</p>
+            <p class="desc">Áo Hoodie, Áo Len & Áo Nỉ
+ | 
+Quần Jeans
+ |</p>
+          </div>
+        </div>
+
+        <p class="title font-weight-bold" style="margin-top: 100px"> </p>
+        <div class="d-flex justify-content-between">
+          <div class="d-flex flex-column">
+            <p class="desc font-weight-bold">CHĂM SÓC KHÁCH HÀNG</p>
+            <p class="mb-1 desc">Trung Tâm Trợ Giúp</p>
+            <p class="mb-1 desc">Shopee Blog</p>
+            <p class="mb-1 desc">Shopee Mall</p>
+          </div>
+          <div class="d-flex flex-column ml-5">
+            <p class="desc font-weight-bold">VỀ SHOPEE</p>
+            <p class="mb-1 desc">Giới Thiệu Về Shopee Việt Nam</p>
+            <p class="mb-1 desc">Tuyển Dụng</p>
+            <p class="mb-1 desc">Điều Khoản Shopee</p>
+          </div>
+          <div class="d-flex flex-column ml-5">
+            <p class="desc font-weight-bold">THANH TOÁN</p>
+            <div class="d-flex align-items-center">
+              <img src="https://cf.shopee.vn/file/38fd98e55806c3b2e4535c4e4a6c4c08" alt="" width="60" height="30" />
+              <img
+                class="ml-2"
+                src="https://cf.shopee.vn/file/d4bbea4570b93bfd5fc652ca82a262a8"
+                width="60"
+                height="30"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="d-flex flex-column ml-5">
+            <p class="desc font-weight-bold">THEO DÕI CHÚNG TÔI TRÊN</p>
+            <div class="d-flex flex-column">
+              <div class="d-flex align-items-center">
+                <img src="https://cf.shopee.vn/file/2277b37437aa470fd1c71127c6ff8eb5" width="20" height="20" alt="" />
+                <span class="desc ml-3">Facebook</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="https://cf.shopee.vn/file/5973ebbc642ceee80a504a81203bfb91" width="20" height="20" alt="" />
+                <span class="desc ml-3">Intagram</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <img src="https://cf.shopee.vn/file/f4f86f1119712b553992a75493065d9a" width="20" height="20" alt="" />
+                <span class="desc ml-3">Linkedln</span>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column ml-5">
+            <p class="desc font-weight-bold">TẢI ỨNG DỤNG SHOPEE NGAY THÔI</p>
+            <div class="d-flex align-items-center">
+              <img src="https://cf.shopee.vn/file/a5e589e8e118e937dc660f224b9a1472" alt="" />
+              <div class="d-flex flex-column">
+                <img src="https://cf.shopee.vn/file/ae7dced05f7243d0f3171f786e123def" alt="" />
+                <img src="https://cf.shopee.vn/file/ad01628e90ddf248076685f73497c163" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <hr/>
+        <div
+          class="d-flex justify-content-between mt-5 pb-3"
+          style="color: #888"
+        >
+          <span> &copy; Shopee 2022. Khánhdeptrai </span>
+          <span>Quốc gia & Khu vực: Singapore|Indonesia|Đài Loan|Thái Lan|Malaysia|Việt Nam|Philippines|Brazil
+                |México|Colombia|Chile|Poland|Argentina</span
+          >
+        </div>
+      </div>
+    </div>
+        <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
